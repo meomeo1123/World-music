@@ -1,0 +1,650 @@
+/* mobile */
+
+@media (max-width : 739px) {
+   
+    #header{
+        height: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90px;
+        z-index: 4;
+    }
+    #header .header-container{
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 30px;
+    }
+    #header .header-items>img{
+        height: 100px;
+    }
+    .mobile-2,
+    .mobile-3{
+        display: none;
+    }
+    .col.l-3.header-items.mobile-1{
+      
+    }
+    #header .header-items .header-title{
+        width: 100px;
+    }
+    .nav.open{
+        display: block;
+    }
+    .nav{
+        display: none;
+        padding-left: 0;
+        height: 345px;
+        position: sticky;
+        top: 12%;
+        left: 0;
+    }
+    .nav>li{
+        display: block;
+        border-bottom: 0.5px solid #ccc;
+    }
+    .nav .nav-search{
+        float: left;
+    }
+    .nav>li>a{
+        width: 100%;
+    }
+    .nav .nav-search{
+        width: 100%;
+    }
+    .nav .nav-search input{
+        width: 89%;
+    }
+    .nav-mobile{
+        position: absolute;
+        top: 15px;
+        left: 0px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    #silder{
+        display: flex;
+        background-color: #000;
+        height: 700px;
+        flex-direction: column;
+        margin-top: 90px;
+    
+    }
+    .silder-autoshow{
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        width: 100%;
+    }
+    .silder-autoshow img{
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+    }
+    #silder .silder-text{
+        width: 100%;
+    }
+    #silder .silder-text .show-value .value-header p{
+        display: none;
+    }
+    #silder .silder-text .show-value .value-header{
+        width: 100%;
+    }
+    #silder .silder-text .show-value .value-header h1{
+        margin: 15px 0;
+        color: #ef5d5e;
+        font-size: 25px;
+        padding: 0 11px;
+    }
+    #silder .silder-text .show-value .value-body p{
+        font-size: 13px;
+    }
+    #silder .silder-text .show-value .value-footer{
+        text-align: center;
+    }
+    #content .nav-content{
+        width: 370px;
+        margin: 0 auto;
+    }
+    #content .content-body .ticket{
+        padding: 0;
+    }
+    #content .content-header{
+        width: 100%;
+    }
+    #content .content-body{
+        width: 100%;
+    }
+    #content .content-body >div{
+        padding: 0;
+        width: 100%;
+       
+    }
+    #content .content-body .ticket{
+        width: 320px;
+        padding: 0 16px;
+        margin: 20px auto;
+    }
+    .content_items_hot.showItemsHot{
+        width: 100%;
+        justify-content: center;
+    }
+    .img_items_hot{
+        height: 400px;
+        object-fit: contain;
+        width: 100%;
+    }
+ 
+    
+    .content_items_hot{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .details__items_hot{
+        line-height: 1.5;
+        align-self: center;
+        padding: 0 5px;
+        text-align: center;
+        background-color: rgb(238,238,238);
+        border: 0.1px solid #ccc;
+    }
+    .note_items_hot{
+        width: 300px;
+    }
+    .details__items_hot .buy-ticket{
+        margin: 20px auto;
+
+    }
+    .btn-show-content-hot{
+        margin-top: 250px;
+    }
+    .content_show-view{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .content_show-view .row{
+        width: 100%;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .content_show-view .row .col{
+        padding: 0;
+    }
+
+    .content_show-view img{
+        width: 370px;
+    }
+    #footer .footer-container{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .us-info{
+        width: 200px;
+    }
+    #footer .side-bar_footer{
+        color: #7a7a7a;
+        padding-left: 5px;
+    }
+    #footer .side-bar_footer img{
+        width: 100%;
+    }
+
+    #footer .side-bar_footer i{
+        padding: 0;
+    }
+    .footer-img img{
+        width: 100%;
+        object-fit: contain;
+        margin-top: 90px;
+    }
+    #footer .footer-body{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    #footer .footer-body .row{
+        width: 100%;
+    }
+    #footer .footer-body .row div{
+        width: 100%;
+        padding: 0 16px;
+    }
+    .us-info ul{
+        margin: 20px 0 !important;
+    }
+    #form-email input{
+        width: 100%;
+    }
+    #form-email .buy-ticket{
+        width: 100%;
+    }
+    #footer .footer-footer .row_thr{
+        width: 100%;
+
+    }
+    #footer .socical{
+        margin-top: 10px;
+    }
+    #footer .socical a{
+        text-decoration: none;
+        color: #000;
+        display: inline-block;
+        padding-bottom: 40px;
+    }
+    .mobile-socical{
+        margin-left: 105px;
+    }
+    .swal2-popup{
+        width: 350px !important;
+    }
+    .cart_items-list{
+        width: 330px;
+    }
+    .modal-main-pay{
+        max-width: 360px;
+    }
+    .modal-pay-container{
+        margin: 0px 15px;
+    }
+    .modal-pay-header .title-modal-pay{
+        font-size: 25px;
+    }
+    .modal-pay-header .title-modal-pay::after{
+        width: 80px;
+        left: 55px;
+    }
+    .modal-total-pay{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .modal-pay-container .modal-payments{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: 10px auto;
+    }
+    .modal-payments-purchase > div,
+    .modal-pay-container .modal-payments > div{
+        width: 150px;
+        font-size: 15px;
+        text-transform: unset;
+    }
+    .cart-payment.show-payment{
+        max-width: 360px;
+    }
+    .form-control{
+        padding: 10px 10px;
+        max-width: 155px;
+        line-height: 0.5;
+        border: 0.7px solid #ced4da;
+    }
+    .address-user{
+        justify-content: start !important;
+        max-width: 360px;
+    }
+    #zip{
+        width: 85px !important;
+    }
+    .custom-select{
+        width: 110px;
+
+    }
+    #cc-name,
+    #cc-number{
+        max-width: 135px;
+    }
+    .img-momo-payment{
+        max-width: 135px;
+        margin: 0 105px;
+    }
+    .note-img-momo-payment{
+        margin-left: 0;
+    }
+    .form-total-modal .buy-ticket{
+        margin: 0 80px;
+
+    }
+    .momo-payment-purchase, .cart-payment-purchase{
+        margin: 0 17px;
+    }
+    .modal-pay-header .title-modal-pay{
+        font-size: 22px;
+    }
+    .modal-pay-header .title-modal-pay::after{
+        width: 70px;
+        left: 63px;
+    }
+    
+}
+
+
+/* taple */
+@media (min-width : 740px) and (max-width : 1023px) {
+      
+    
+    #header{
+        height: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 4;
+    }
+    #header .header-container{
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 30px;
+    }
+    #header .header-items>img{
+        height: 100px;
+    }
+    .mobile-2,
+    .mobile-3{
+        display: none;
+    }
+    .col.l-3.header-items.mobile-1{
+      
+    }
+    #header .header-items .header-title{
+        width: 100px;
+    }
+    .nav.open{
+        display: block;
+    }
+    .nav{
+        display: none;
+        padding-left: 0;
+        height: 345px;
+        position: sticky;
+        top: 9.7%;
+        left: 0;
+    }
+    .nav>li{
+        display: block;
+        border-bottom: 0.5px solid #ccc;
+    }
+    .nav .nav-search{
+        float: left;
+    }
+    .nav>li>a{
+        width: 100%;
+    }
+    .nav .nav-search{
+        width: 100%;
+    }
+    .nav .nav-search input{
+        width: 94%;
+    }
+    .nav-mobile{
+        position: absolute;
+        top: 15px;
+        left: 0px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    #silder{
+        margin-top: 100px;
+        display: flex;
+        background-color: #000;
+        height: 700px;
+        flex-direction: column;
+    
+    }
+    .silder-autoshow{
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        width: 100%;
+    }
+    .silder-autoshow img{
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+    }
+    #silder .silder-text{
+        width: 100%;
+    }
+    #silder .silder-text .show-value .value-header p{
+        display: none;
+    }
+    #silder .silder-text .show-value .value-header{
+        width: 100%;
+    }
+    #silder .silder-text .show-value .value-header h1{
+        margin: 15px 0;
+        color: #ef5d5e;
+        font-size: 25px;
+        padding: 0 11px;
+    }
+    #silder .silder-text .show-value .value-body p{
+        font-size: 13px;
+    }
+    #silder .silder-text .show-value .value-footer{
+        text-align: center;
+    }
+    .content_items_hot.showItemsHot{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .img_items_hot{
+        height: 400px;
+        object-fit: contain;
+        width: 100%;
+    }
+ 
+    
+    .content_items_hot{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .details__items_hot{
+        line-height: 1.5;
+        align-self: center;
+        padding: 0 5px;
+        text-align: center;
+        background-color: rgb(238,238,238);
+    }
+    .note_items_hot{
+        width: 300px;
+    }
+    .details__items_hot .buy-ticket{
+        margin: 20px auto;
+
+    }
+   
+    .content_show-view{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .content_show-view .section-title-show::after{
+        left: 28%;
+    }
+    .content_show-view .row{
+        width: 100%;
+        justify-content: center;
+    }
+    .content_show-view img{
+        width: 650px;
+    }
+    #footer .footer-container{
+        flex-wrap: wrap;
+    }
+    .us-info{
+        width: 200px;
+    }
+    #footer .side-bar_footer{
+        color: #7a7a7a;
+        padding-left: 5px;
+    }
+    #footer .side-bar_footer img{
+        width: 100%;
+    }
+
+    #footer .side-bar_footer i{
+        padding: 0 8px;
+    }
+    .footer-img img{
+        width: 160%;
+        object-fit: contain;
+        margin-top: 90px;
+    }
+    #footer .footer-body{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    #footer .footer-body .row{
+        width: 100%;
+    }
+    #footer .footer-body .row .section-footer{
+        width: 50%;
+        padding: 0 16px;
+    }
+    .us-info{
+        margin-left: 16px;
+    }
+    .us-info ul{
+        margin: 20px  !important;
+        width: 100%;
+    }
+    .section-footer ul p{
+        width: 125%;
+    }
+    #form-email input{
+        width: 125%;
+        margin: 20px 1px;
+    }
+    #form-email .buy-ticket{
+        width: 125%;
+    }
+    #footer .footer-footer .row_thr{
+        width: 100%;
+
+    }
+    #footer .socical{
+        margin-top: 10px;
+    }
+    #footer .socical a{
+        text-decoration: none;
+        color: #000;
+        display: inline-block;
+    }
+    .address-user{
+        justify-content: start !important;
+    }
+    .custom-select{
+        width: 130px;
+    }
+    .form-control{
+        padding: 10px 20px;
+    }
+    #zip{
+        width: 133px;
+    }
+    
+}
+
+
+/* ipad pro */
+@media (width : 1024px) {
+    .nav-mobile{
+        display: none;
+    }
+    .nav{
+        padding-left: 0;
+    }
+    .nav .nav-search{
+        margin-right: 50px;
+    }
+    .nav>li>a{
+        padding: 15px 15px;
+    }
+    .nav .nav-search input{
+        padding: 15px 10px;
+    }
+    #silder{
+        height: 700px;
+    }
+    .silder-autoshow img{
+        width: 100%;
+    }
+    #content .content-body .ticket{
+        width: 250px;
+    }
+    #content .content-body .ticket-info{
+        height: 300px;
+    }
+    #content .content-body .ticket-info h4{
+        font-size: 25px;
+        padding-top: 8px;
+        width: 99px;
+        margin: 0 auto;
+    }
+    #footer .side-bar_footer{
+        margin-left: 0;
+    }
+    #footer .footer-body{
+        margin-right: 0px;
+    }
+    #footer .footer-body .row{
+        width: 600px;
+    } 
+    #footer .footer-footer a:first-child{
+        padding: 20px 14px;
+    }
+    #footer .socical{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 8px;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .modal-main-pay{
+        position: absolute;
+        top: 5%;
+        min-height: 200px;
+        background-color: #fff;
+        width: 500px;
+        border-radius: 5px;
+        animation: Showpayment ease-in 0.4s;
+    }
+    .form-control{
+        padding: 10px 20px;
+    }
+    #zip{
+        width: 100px!important;
+    }
+    .address-user div:last-child input{
+        width: 100px !important;
+    }
+    .swal2-popup{
+        width: 500px;
+        padding: 20px;
+        background: rgb(255, 255, 255);
+        display: flex;
+        justify-content: start;
+        position: absolute !important;
+        top: 16% !important;
+    }
+
+} 
+
+/* /* pc */
+
+@media (min-width : 1025px){
+    .nav-mobile{
+        display: none;
+    }
+}
